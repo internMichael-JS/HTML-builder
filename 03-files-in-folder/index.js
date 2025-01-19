@@ -23,7 +23,7 @@ fs.readdir(folderPath, { withFileTypes: true }, (err, files) => {
           `${fileName.toString().replace(exst, '')} - ${exst.replace(
             '.',
             '',
-          )} - ${+size / 1000}kb`,
+          )} - ${size}b`,
         );
       });
     }
